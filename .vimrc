@@ -11,9 +11,16 @@ set cmdheight=2
 " エディタウィンドウの末尾から2行目にステータスラインを常時表示させる
 set laststatus=2
 "行頭の余白内で Tab を打ち込むと、'shiftwidth' の数だけインデントする
-set smarttab
+"set smarttab
 " ウインドウのタイトルバーにファイルのパス情報等を表示する
 set title
+" タブストップ設定
+set tabstop=2
+set shiftwidth=2
+set softtabstop=0
+set expandtab
+" 256色モード
+set t_Co=256
 
 if has('vim_starting')
   " Required:
@@ -36,7 +43,7 @@ NeoBundle 'Shougo/vimproc', {
   \ }
 
 NeoBundle 'nathanaelkane/vim-indent-guides'
-
+"NeoBundle 'Yggdroot/indentLine'
 " }}}
 " jellybeans カラースキーム
 NeoBundle 'nanotech/jellybeans.vim'
@@ -54,9 +61,13 @@ filetype plugin indent on
 NeoBundleCheck
 
 " indent-guides {{{
-let g:indent_guides_enable_on_vim_startup = 1
-let g:indent_guides_guide_size = 1
-let g:indent_guides_auto_colors = 0
+let g:indent_guides_enable_on_vim_startup=1
+" ガイドをスタートするインデントの量
+"let g:indent_guides_start_level=1
+" ガイドの幅
+let g:indent_guides_guide_size=1
+" 自動カラー無効
+let g:indent_guides_auto_colors=0
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=DarkGrey ctermbg=darkgrey
 autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=DarkCyan ctermbg=12
 " }}}
