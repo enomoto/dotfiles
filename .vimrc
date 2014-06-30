@@ -3,7 +3,7 @@ set nocompatible " tab補完
 "set wildmenu wildmode=list:full
 set wildmenu wildmode=list:longest
 " スワップファイルは使わない
-set noswapfile
+"set noswapfile
 " カーソルが何行目の何列目に置かれているかを表示する
 set ruler
 " コマンドラインに使われる画面上の行数
@@ -63,7 +63,15 @@ NeoBundle 'tpope/vim-endwise'
 NeoBundle 'bronson/vim-trailing-whitespace'
 " コメントON/OFFを手軽に実行
 NeoBundle 'tomtom/tcomment_vim'
-
+" JSONの整形
+NeoBundle '5t111111/neat-json.vim'
+""""""""""""""""""""""""""""""
+" 自動的に閉じ括弧を入力
+" """"""""""""""""""""""""""""""
+imap { {}<LEFT>
+imap [ []<LEFT>
+imap ( ()<LEFT>
+""""""""""""""""""""""""""""""
 syntax enable
 filetype plugin indent on
 
