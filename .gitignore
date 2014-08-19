@@ -5,3 +5,5 @@
 /tmp
 *.swp
 .ruby-version
+tags
+TAGS
