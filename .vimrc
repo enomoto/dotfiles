@@ -1,4 +1,4 @@
-set nocompatible " tab補完         
+set nocompatible " tab補完
 " コマンドラインモードで<Tab>キーによるファイル名補完を有効にする
 "set wildmenu wildmode=list:full
 set wildmenu wildmode=list:longest
@@ -21,6 +21,8 @@ set softtabstop=0
 set expandtab
 " 256色モード
 set t_Co=256
+
+set nu
 
 if has('vim_starting')
   " Required:
