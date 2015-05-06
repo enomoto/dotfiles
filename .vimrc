@@ -3,7 +3,7 @@ set nocompatible " tab補完
 "set wildmenu wildmode=list:full
 set wildmenu wildmode=list:longest
 " スワップファイルは使わない
-"set noswapfile
+set noswapfile
 " カーソルが何行目の何列目に置かれているかを表示する
 set ruler
 " コマンドラインに使われる画面上の行数
