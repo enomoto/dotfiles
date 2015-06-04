@@ -1,0 +1,5 @@
+[alias]
+  s = status
+  d = diff
+  g = grep --line-number --heading --break --show-function
+  l = ls-files
