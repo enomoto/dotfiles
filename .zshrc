@@ -92,7 +92,7 @@ export PATH="/usr/local/heroku/bin:$PATH"
 RLWRAP_COMMAND=`which rlwrap`
 alias ocaml="$RLWRAP_COMMAND ocaml"
 
-alias LS='ls -alt'
+alias LS='ls -al'
 
 # Git
 alias gd='git d'
