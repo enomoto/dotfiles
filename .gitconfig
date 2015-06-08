@@ -6,7 +6,8 @@
   co      = checkout
   d       = diff
   g       = grep --line-number --heading --break --show-function
-  l       = ls-files
+  l       = log --graph -n 20 --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(green)- %an, %cr%Creset'
+  ls      = ls-files
   s       = status
 [core]
   editor  = vim -c \"set fenc=utf-8\"
