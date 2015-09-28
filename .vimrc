@@ -24,6 +24,9 @@ set t_Co=256
 
 set nu
 
+command W w
+command Q q
+
 if has('vim_starting')
   " Required:
   set runtimepath+=~/.vim/bundle/neobundle.vim/
