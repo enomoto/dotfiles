@@ -1,8 +1,9 @@
 [user]
   name    = enomoto
-  email   = knt527@gmail.com
+  email   = enomoto.kenta@withone.co.jp
 [alias]
   ad      = add
+  b       = branch
   co      = checkout
   d       = diff
   g       = grep --line-number --heading --break --show-function
@@ -11,3 +12,5 @@
   s       = status
 [core]
   editor  = vim -c \"set fenc=utf-8\"
+[http]
+	sslVerify = false
