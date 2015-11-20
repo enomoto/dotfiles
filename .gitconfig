@@ -1,10 +1,10 @@
 [user]
   name    = enomoto
-  email   = knt527@gmail.com
+  email   = enomoto.kenta@withone.co.jp
 [alias]
   ad      = add
   b       = branch
-  co      = checkout
+  c      = checkout
   d       = diff
   g       = grep --line-number --heading --break --show-function
   l       = log --graph -n 20 --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(green)- %an, %cr%Creset'
