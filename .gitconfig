@@ -11,3 +11,5 @@
   s       = status
 [core]
   editor  = vim -c \"set fenc=utf-8\"
+[push]
+	default = matching

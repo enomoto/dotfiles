@@ -65,7 +65,7 @@ colorscheme desert
 " ファイルをtree表示してくれる
 NeoBundle 'scrooloose/nerdtree'
 " Ruby向けにendを自動挿入してくれる
-NeoBundle 'tpope/vim-endwise'
+" NeoBundle 'tpope/vim-endwise'
 " 行末の半角スペースを可視化
 NeoBundle 'bronson/vim-trailing-whitespace'
 " コメントON/OFFを手軽に実行
@@ -75,9 +75,9 @@ NeoBundle '5t111111/neat-json.vim'
 """"""""""""""""""""""""""""""
 " 自動的に閉じ括弧を入力
 " """"""""""""""""""""""""""""""
-imap { {}<LEFT>
-imap [ []<LEFT>
-imap ( ()<LEFT>
+"imap { {}<LEFT>
+"imap [ []<LEFT>
+"imap ( ()<LEFT>
 """"""""""""""""""""""""""""""
 syntax enable
 filetype plugin indent on

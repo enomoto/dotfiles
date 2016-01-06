@@ -7,8 +7,8 @@ export ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 #ZSH_THEME="alanpeabody"
 #ZSH_THEME="terminalparty"
-ZSH_THEME="gallifrey"
-# ZSH_THEME="robbyrussell"
+# ZSH_THEME="gallifrey"
+ZSH_THEME="robbyrussell"
 # ZSH_THEME="gallois"
 
 # Example aliases
@@ -91,6 +91,10 @@ export PATH="/usr/local/heroku/bin:$PATH"
 # ocamlインタプリタの設定
 RLWRAP_COMMAND=`which rlwrap`
 alias ocaml="$RLWRAP_COMMAND ocaml"
+
+# GOPATH
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
 
 alias LS='ls -al'
 
