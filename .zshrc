@@ -7,8 +7,8 @@ export ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 #ZSH_THEME="alanpeabody"
 #ZSH_THEME="terminalparty"
-ZSH_THEME="gallifrey"
-# ZSH_THEME="robbyrussell"
+#ZSH_THEME="gallifrey"
+ ZSH_THEME="robbyrussell"
 # ZSH_THEME="gallois"
 
 # Example aliases
@@ -58,7 +58,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
 
 #export PATH="/Users/enomoto/.rvm/gems/ruby-2.0.0-p451@railstutorial_rails_4_0/bin:/Users/enomoto/.rvm/gems/ruby-2.0.0-p451@global/bin:/Users/enomoto/.rvm/rubies/ruby-2.0.0-p451/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/enomoto/.rvm/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -98,6 +98,7 @@ alias LS='ls -al'
 alias gd='git d'
 alias gg='git g'
 alias gs='git s'
+alias gb='git branch'
 alias ctags=/usr/local/bin/ctags
 
 
