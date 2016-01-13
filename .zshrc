@@ -92,6 +92,10 @@ export PATH="/usr/local/heroku/bin:$PATH"
 RLWRAP_COMMAND=`which rlwrap`
 alias ocaml="$RLWRAP_COMMAND ocaml"
 
+# GOPATH
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+
 alias LS='ls -al'
 
 # Git

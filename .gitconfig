@@ -12,5 +12,3 @@
   s       = status
 [core]
   editor  = vim -c \"set fenc=utf-8\"
-[http]
-	sslVerify = false
