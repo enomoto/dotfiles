@@ -100,6 +100,7 @@ alias LS='ls -al'
 
 # Git
 alias gd='git d'
+alias gdc='git dc'
 alias gg='git g'
 alias gs='git s'
 alias gb='git branch'
