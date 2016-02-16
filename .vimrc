@@ -40,11 +40,6 @@ endif
 
 call neobundle#begin(expand('~/.vim/bundle/'))
 NeoBundleFetch 'Shougo/neobundle.vim'
-call neobundle#end()
-
-" NeoBundle {{{
-" Let NeoBundle manage NeoBundle
-NeoBundleFetch 'Shougo/neobundle.vim'
 
 NeoBundle 'Shougo/vimproc', {
   \ 'build' : {
@@ -57,7 +52,6 @@ NeoBundle 'Shougo/vimproc', {
 
 "NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'Yggdroot/indentLine'
-" }}}
 " jellybeans カラースキーム
 NeoBundle 'nanotech/jellybeans.vim'
 " solarized カラースキーム
@@ -85,6 +79,8 @@ NeoBundle '5t111111/neat-json.vim'
 "imap [ []<LEFT>
 "imap ( ()<LEFT>
 """"""""""""""""""""""""""""""
+call neobundle#end()
+
 syntax enable
 filetype plugin indent on
 
