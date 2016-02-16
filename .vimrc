@@ -22,6 +22,12 @@ set expandtab
 " 256色モード
 set t_Co=256
 
+" 検索設定
+set ignorecase          " 大文字小文字を区別しない
+set smartcase           " 検索文字に大文字がある場合は大文字小文字を区別
+set incsearch           " インクリメンタルサーチ
+set hlsearch            " 検索マッチテキストをハイライト
+
 set nu
 
 command W w
