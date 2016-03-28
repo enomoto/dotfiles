@@ -29,6 +29,7 @@ set incsearch           " インクリメンタルサーチ
 set hlsearch            " 検索マッチテキストをハイライト
 
 set nu
+set history=50
 
 command W w
 command Q q
