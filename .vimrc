@@ -31,6 +31,7 @@ set incsearch           " インクリメンタルサーチ
 set hlsearch            " 検索マッチテキストをハイライト
 
 set nu
+set history=50
 
 command W w
 command Q q
@@ -109,11 +110,27 @@ endif
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<S-TAB>"
 
+" **** settings for Python **** "
+NeoBundle 'Flake8-vim'
+NeoBundle 'davidhalter/jedi-vim'
+NeoBundle 'hynek/vim-python-pep8-indent'
+NeoBundle 'Townk/vim-autoclose'
+NeoBundle 'scrooloose/syntastic'
+" 保存時にPyFlakeで自動でチェック
+let g:PyFlakeOnWrite = 1
+let g:PyFlakeCheckers = 'pep8,mccabe,pyflakes'
+let g:PyFlakeDefaultComplexity=10
+" syntasticの設定
+let g:syntastic_python_checkers = ['pyflakes', 'pep8']
+
+" **** settings for Python end **** "
+
 call neobundle#end()
 
 syntax enable
 filetype plugin indent on
 
+" インストール自動チェック
 NeoBundleCheck
 
 " indent-guides {{{
