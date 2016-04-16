@@ -4,6 +4,8 @@ set nocompatible " tab補完
 set wildmenu wildmode=list:longest
 " スワップファイルは使わない
 set noswapfile
+" un files も不要　
+set noundofile
 " カーソルが何行目の何列目に置かれているかを表示する
 set ruler
 " コマンドラインに使われる画面上の行数
