@@ -106,6 +106,8 @@ alias gs='git s'
 alias gb='git branch'
 alias ctags=/usr/local/bin/ctags
 
+# zshの起動時にcowsayを実行する
+fortune | cowsay
 
 # コマンド履歴から実行する ctrl + X, ctrl + R
 function peco-execute-history() {
