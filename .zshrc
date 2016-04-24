@@ -108,6 +108,8 @@ alias ctags=/usr/local/bin/ctags
 
 # zshの起動時にcowsayを実行する
 fortune | cowsay
+# ansibleでcowsay動かなくする
+export ANSIBLE_NOCOWS=1
 
 # コマンド履歴から実行する ctrl + X, ctrl + R
 function peco-execute-history() {
