@@ -106,8 +106,6 @@ alias gs='git s'
 alias gb='git branch'
 alias ctags=/usr/local/bin/ctags
 
-# zshの起動時にcowsayを実行する
-fortune | cowsay
 # ansibleでcowsay動かなくする
 export ANSIBLE_NOCOWS=1
 
