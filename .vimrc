@@ -4,6 +4,8 @@ set nocompatible " tab補完
 set wildmenu wildmode=list:longest
 " スワップファイルは使わない
 set noswapfile
+" チルダファイルは使わない
+set nobackup
 " un files も不要　
 set noundofile
 " カーソルが何行目の何列目に置かれているかを表示する
