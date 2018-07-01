@@ -129,6 +129,7 @@ let g:syntastic_python_checkers = ['pyflakes', 'pep8']
 
 call neobundle#end()
 
+syntax on
 syntax enable
 filetype plugin indent on
 

@@ -58,6 +58,8 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# python
+export PYENV_ROOT=/usr/local/opt/pyenv
 # eval "$(rbenv init -)"
 
 #export PATH="/Users/enomoto/.rvm/gems/ruby-2.0.0-p451@railstutorial_rails_4_0/bin:/Users/enomoto/.rvm/gems/ruby-2.0.0-p451@global/bin:/Users/enomoto/.rvm/rubies/ruby-2.0.0-p451/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/enomoto/.rvm/bin"
@@ -81,7 +83,7 @@ source $ZSH/oh-my-zsh.sh
 
 # PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
-export EDITOR=/Applications/MacVim.app/Contents/MacOS/mvim
+export EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
 alias mvim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/mvim "$@"'
 alias vim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
 
