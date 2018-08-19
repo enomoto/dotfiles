@@ -4,16 +4,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
-#ZSH_THEME="alanpeabody"
-#ZSH_THEME="terminalparty"
-#ZSH_THEME="gallifrey"
  ZSH_THEME="robbyrussell"
-# ZSH_THEME="gallois"
-
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -44,7 +35,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
 # The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-# HIST_STAMPS="mm/dd/yyyy"
+HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
@@ -63,29 +54,6 @@ eval "$(pyenv init -)"
 
 # Rust
 export PATH="$HOME/.cargo/bin:$PATH"
-
-# eval "$(rbenv init -)"
-
-#export PATH="/Users/enomoto/.rvm/gems/ruby-2.0.0-p451@railstutorial_rails_4_0/bin:/Users/enomoto/.rvm/gems/ruby-2.0.0-p451@global/bin:/Users/enomoto/.rvm/rubies/ruby-2.0.0-p451/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/enomoto/.rvm/bin"
-# export MANPATH="/usr/local/man:$MANPATH"
-
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
-
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-
-# ssh
-# export SSH_KEY_PATH="~/.ssh/dsa_id"
-
-# PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 export EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
 alias mvim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/mvim "$@"'
@@ -111,9 +79,6 @@ alias gg='git g'
 alias gs='git s'
 alias gb='git branch'
 alias ctags=/usr/local/bin/ctags
-
-# ansibleでcowsay動かなくする
-export ANSIBLE_NOCOWS=1
 
 export HOMEBREW_NO_ANALYTICS=1
 
