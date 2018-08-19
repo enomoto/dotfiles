@@ -61,6 +61,9 @@ source $ZSH/oh-my-zsh.sh
 # Python
 eval "$(pyenv init -)"
 
+# Rust
+export PATH="$HOME/.cargo/bin:$PATH"
+
 # eval "$(rbenv init -)"
 
 #export PATH="/Users/enomoto/.rvm/gems/ruby-2.0.0-p451@railstutorial_rails_4_0/bin:/Users/enomoto/.rvm/gems/ruby-2.0.0-p451@global/bin:/Users/enomoto/.rvm/rubies/ruby-2.0.0-p451/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/enomoto/.rvm/bin"
