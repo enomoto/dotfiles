@@ -49,12 +49,6 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-# Python
-eval "$(pyenv init -)"
-
-# Rust
-export PATH="$HOME/.cargo/bin:$PATH"
-
 export EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
 alias mvim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/mvim "$@"'
 alias vim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
@@ -62,11 +56,17 @@ alias vim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
-# ocamlインタプリタの設定
+# Python
+eval "$(pyenv init -)"
+
+# Rust
+export PATH="$HOME/.cargo/bin:$PATH"
+
+# OCaml
 RLWRAP_COMMAND=`which rlwrap`
 alias ocaml="$RLWRAP_COMMAND ocaml"
 
-# GOPATH
+# Golang
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
