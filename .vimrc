@@ -35,6 +35,9 @@ set hlsearch            " 検索マッチテキストをハイライト
 set nu
 set history=50
 
+set modelines=0
+set nomodeline
+
 command W w
 command Q q
 
