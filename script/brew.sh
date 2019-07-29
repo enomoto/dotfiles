@@ -39,6 +39,7 @@ apps=(
   android-studio
   charles
   docker
+  editaro
   figma
   flux
   google-chrome
