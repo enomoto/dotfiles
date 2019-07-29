@@ -3,6 +3,7 @@
 brew update
 brew upgrade
 apps=(
+  mas
   git
   git-lfs
   tig

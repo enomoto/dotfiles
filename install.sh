@@ -11,3 +11,6 @@ brew tap caskroom/cask
 brew tap caskroom/versions
 
 . script/brew.sh
+
+. script/mas.sh
+
