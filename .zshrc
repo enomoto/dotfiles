@@ -117,3 +117,6 @@ function peco-cdr() {
 }
 zle -N peco-cdr
 bindkey '^xb' peco-cdr
+
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init - zsh)"
