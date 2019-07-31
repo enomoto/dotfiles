@@ -68,7 +68,7 @@ alias ocaml="$RLWRAP_COMMAND ocaml"
 
 # Golang
 export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
+export PATH=$GOPATH/bin:$PATH
 
 alias LS='ls -al'
 
