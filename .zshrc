@@ -120,3 +120,6 @@ bindkey '^xb' peco-cdr
 
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init - zsh)"
+
+# Haskell, stack
+export PATH="$HOME/.local/bin:$PATH"
