@@ -49,10 +49,6 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
-alias mvim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/mvim "$@"'
-alias vim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
-
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
@@ -70,7 +66,7 @@ alias ocaml="$RLWRAP_COMMAND ocaml"
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
 
-alias LS='ls -al'
+alias LS='ls -alt'
 
 # Git
 alias gd='git d'
