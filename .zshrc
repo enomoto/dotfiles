@@ -70,7 +70,7 @@ alias ocaml="$RLWRAP_COMMAND ocaml"
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
 
-alias LS='ls -al'
+alias LS='ls -alt'
 
 # Git
 alias gd='git d'
