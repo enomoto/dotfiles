@@ -51,6 +51,7 @@ apps=(
   pusher
   skitch
   slack
+  visual-studio-code
 )
 
 brew cask install "${apps[@]}"
