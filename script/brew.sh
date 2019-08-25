@@ -52,6 +52,7 @@ apps=(
   skitch
   slack
   vagrant
+  virtualbox
   visual-studio-code
 )
 
