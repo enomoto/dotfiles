@@ -51,6 +51,7 @@ apps=(
   pusher
   skitch
   slack
+  vagrant
   visual-studio-code
 )
 
