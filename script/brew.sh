@@ -52,6 +52,8 @@ apps=(
   pusher
   skitch
   slack
+  vagrant
+  virtualbox
   visual-studio-code
 )
 
