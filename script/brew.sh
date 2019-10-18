@@ -31,6 +31,7 @@ apps=(
   golang
   carthage
   cloc
+  pngquant
 )
 
 brew install "${apps[@]}"
