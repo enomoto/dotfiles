@@ -32,6 +32,7 @@ apps=(
   carthage
   cloc
   pngquant
+  rg
 )
 
 brew install "${apps[@]}"
