@@ -9,3 +9,5 @@ tags
 TAGS
 *~
 .DS_Store
+.rakeTasks
+.generators
